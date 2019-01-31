@@ -1,10 +1,11 @@
 import axios from 'axios'
 import logger from '../config/logger'
 import { formatProducts } from '../common/helpers'
+import { baseUrl } from '../common/constants'
 
 export default (req, res) => {
   const {term, offset, limit} = req.params
-  let url = `https://api.mercadolibre.com/sites/MLA/search?q=${term}`
+  let url = `${baseUrl}/sites/MLA/search?q=${term}`
   if (offset) url += `&offset=${offset}`
   if (limit) url += `&limit=${limit}`
 

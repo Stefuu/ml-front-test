@@ -10,8 +10,8 @@ export const formatProducts = (json) => {
     title: item.title,
     price: {
       currency: item.currency_id,
-      amount: parseInt(item.price),
-      decimals: parseFloat((item.price % 1).toFixed(2))
+      amount: parseInt(item.price, 10),
+      decimals: parseFloat((item.price % 1).toFixed(2), 10)
     },
     picture: item.thumbnail,
     condition: item.condition,
@@ -26,4 +26,8 @@ export const formatProducts = (json) => {
     categories: getCategories(json.filters),
     items
   }
+}
+
+export const formatItem = (json) => {
+  return {}
 }
