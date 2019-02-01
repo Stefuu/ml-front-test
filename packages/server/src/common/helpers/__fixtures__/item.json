@@ -1,0 +1,466 @@
+{
+    "id": "MLA730963111",
+    "site_id": "MLA",
+    "title": "Notebook Lenovo Ideapad 330 Dual Core 4gb 500g 14 W10 Mexx",
+    "subtitle": null,
+    "seller_id": 82916233,
+    "category_id": "MLA10261",
+    "official_store_id": null,
+    "price": 13749,
+    "base_price": 13749,
+    "original_price": null,
+    "currency_id": "ARS",
+    "initial_quantity": 11000,
+    "available_quantity": 5000,
+    "sold_quantity": 25,
+    "sale_terms": [],
+    "buying_mode": "buy_it_now",
+    "listing_type_id": "gold_special",
+    "start_time": "2018-06-12T01:02:52.000Z",
+    "stop_time": "2038-06-08T12:47:48.000Z",
+    "condition": "new",
+    "permalink": "https://articulo.mercadolibre.com.ar/MLA-730963111-notebook-lenovo-ideapad-330-dual-core-4gb-500g-14-w10-mexx-_JM",
+    "thumbnail": "http://mla-s2-p.mlstatic.com/899873-MLA27546306071_062018-I.jpg",
+    "secure_thumbnail": "https://mla-s2-p.mlstatic.com/899873-MLA27546306071_062018-I.jpg",
+    "pictures": [
+        {
+            "id": "899873-MLA27546306071_062018",
+            "url": "http://mla-s2-p.mlstatic.com/899873-MLA27546306071_062018-O.jpg",
+            "secure_url": "https://mla-s2-p.mlstatic.com/899873-MLA27546306071_062018-O.jpg",
+            "size": "500x500",
+            "max_size": "1000x1000",
+            "quality": ""
+        },
+        {
+            "id": "858575-MLA27546302127_062018",
+            "url": "http://mla-s2-p.mlstatic.com/858575-MLA27546302127_062018-O.jpg",
+            "secure_url": "https://mla-s2-p.mlstatic.com/858575-MLA27546302127_062018-O.jpg",
+            "size": "500x500",
+            "max_size": "1000x1000",
+            "quality": ""
+        },
+        {
+            "id": "636022-MLA27546270949_062018",
+            "url": "http://mla-s2-p.mlstatic.com/636022-MLA27546270949_062018-O.jpg",
+            "secure_url": "https://mla-s2-p.mlstatic.com/636022-MLA27546270949_062018-O.jpg",
+            "size": "500x500",
+            "max_size": "1000x1000",
+            "quality": ""
+        },
+        {
+            "id": "921454-MLA27546299657_062018",
+            "url": "http://mla-s2-p.mlstatic.com/921454-MLA27546299657_062018-O.jpg",
+            "secure_url": "https://mla-s2-p.mlstatic.com/921454-MLA27546299657_062018-O.jpg",
+            "size": "500x500",
+            "max_size": "1000x1000",
+            "quality": ""
+        },
+        {
+            "id": "751342-MLA27546297166_062018",
+            "url": "http://mla-s2-p.mlstatic.com/751342-MLA27546297166_062018-O.jpg",
+            "secure_url": "https://mla-s2-p.mlstatic.com/751342-MLA27546297166_062018-O.jpg",
+            "size": "500x500",
+            "max_size": "1000x1000",
+            "quality": ""
+        },
+        {
+            "id": "617334-MLA27546297167_062018",
+            "url": "http://mla-s2-p.mlstatic.com/617334-MLA27546297167_062018-O.jpg",
+            "secure_url": "https://mla-s2-p.mlstatic.com/617334-MLA27546297167_062018-O.jpg",
+            "size": "500x500",
+            "max_size": "1000x1000",
+            "quality": ""
+        },
+        {
+            "id": "988814-MLA27546297169_062018",
+            "url": "http://mla-s2-p.mlstatic.com/988814-MLA27546297169_062018-O.jpg",
+            "secure_url": "https://mla-s2-p.mlstatic.com/988814-MLA27546297169_062018-O.jpg",
+            "size": "500x500",
+            "max_size": "1000x1000",
+            "quality": ""
+        },
+        {
+            "id": "945475-MLA27546310039_062018",
+            "url": "http://mla-s2-p.mlstatic.com/945475-MLA27546310039_062018-O.jpg",
+            "secure_url": "https://mla-s2-p.mlstatic.com/945475-MLA27546310039_062018-O.jpg",
+            "size": "500x500",
+            "max_size": "1000x1000",
+            "quality": ""
+        }
+    ],
+    "video_id": null,
+    "descriptions": [
+        {
+            "id": "MLA730963111-1708924178"
+        }
+    ],
+    "accepts_mercadopago": true,
+    "non_mercado_pago_payment_methods": [],
+    "shipping": {
+        "mode": "me2",
+        "free_methods": [
+            {
+                "id": 73328,
+                "rule": {
+                    "default": true,
+                    "free_mode": "country",
+                    "free_shipping_flag": true,
+                    "value": null
+                }
+            }
+        ],
+        "tags": [
+            "self_service_in",
+            "mandatory_free_shipping"
+        ],
+        "dimensions": null,
+        "local_pick_up": true,
+        "free_shipping": true,
+        "logistic_type": "cross_docking",
+        "store_pick_up": false
+    },
+    "international_delivery_mode": "none",
+    "seller_address": {
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "city": {
+            "id": "",
+            "name": "Caballito"
+        },
+        "state": {
+            "id": "AR-C",
+            "name": "Capital Federal"
+        },
+        "country": {
+            "id": "AR",
+            "name": "Argentina"
+        },
+        "search_location": {
+            "neighborhood": {
+                "id": "TUxBQkNBQjM4MDda",
+                "name": "Caballito"
+            },
+            "city": {
+                "id": "TUxBQ0NBUGZlZG1sYQ",
+                "name": "Capital Federal"
+            },
+            "state": {
+                "id": "TUxBUENBUGw3M2E1",
+                "name": "Capital Federal"
+            }
+        },
+        "latitude": -34.62237,
+        "longitude": -58.450333,
+        "id": 102685353
+    },
+    "seller_contact": null,
+    "location": {},
+    "geolocation": {
+        "latitude": -34.62237,
+        "longitude": -58.450333
+    },
+    "coverage_areas": [],
+    "attributes": [
+        {
+            "id": "BATTERY_TYPE",
+            "name": "Tipo de batería",
+            "value_id": "94038",
+            "value_name": "Ion de litio",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "BRAND",
+            "name": "Marca",
+            "value_id": "7494",
+            "value_name": "Lenovo",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "DIMENSIONS",
+            "name": "Medidas",
+            "value_id": null,
+            "value_name": "0.338 m x 0.25 m x 0.023 m",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "DISPLAY_RESOLUTION",
+            "name": "Resolución de la pantalla",
+            "value_id": null,
+            "value_name": "1366 x 768",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "GPU",
+            "name": "GPU",
+            "value_id": "-1",
+            "value_name": null,
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "IS_ULTRABOOK",
+            "name": "Es ultrabook",
+            "value_id": "242084",
+            "value_name": "No",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "ITEM_CONDITION",
+            "name": "Condición del ítem",
+            "value_id": "2230284",
+            "value_name": "Nuevo",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "LINE",
+            "name": "Línea",
+            "value_id": "27211",
+            "value_name": "IdeaPad",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "MODEL",
+            "name": "Modelo",
+            "value_id": null,
+            "value_name": "ideapad 330-14IGM",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "NOTEBOOK_CORES_NUMBER",
+            "name": "Cantidad de núcleos de la notebook",
+            "value_id": null,
+            "value_name": "Dual core",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "OPTICAL_DRIVES",
+            "name": "Unidades ópticas",
+            "value_id": "6134779",
+            "value_name": "No",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "OS_EDITION",
+            "name": "Edición del sistema operativo",
+            "value_id": "6127363",
+            "value_name": "Home",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "OS_NAME",
+            "name": "Nombre del sistema operativo",
+            "value_id": null,
+            "value_name": "Windows 10",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "OS_VERSION",
+            "name": "Versión del sistema operativo",
+            "value_id": null,
+            "value_name": "Home",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "PROCESSOR",
+            "name": "Procesador",
+            "value_id": "98936",
+            "value_name": "Intel Celeron",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "RAM_MEMORY",
+            "name": "Memoria RAM",
+            "value_id": null,
+            "value_name": "4 GB",
+            "value_struct": {
+                "number": 4,
+                "unit": "GB"
+            },
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "RAM_MEMORY_TYPE",
+            "name": "Tipo de memoria RAM",
+            "value_id": "83822",
+            "value_name": "DDR4",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "SCREEN_SIZE",
+            "name": "Tamaño de la pantalla",
+            "value_id": null,
+            "value_name": "14 \"",
+            "value_struct": {
+                "number": 14,
+                "unit": "\""
+            },
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "STORAGE",
+            "name": "Capacidad de almacenamiento",
+            "value_id": null,
+            "value_name": "500 GB",
+            "value_struct": {
+                "number": 500,
+                "unit": "GB"
+            },
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "TYPE_OF_DRIVE",
+            "name": "Tipo de almacenamiento de datos",
+            "value_id": "365877",
+            "value_name": "SSD",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "VIDEO_MEMORY",
+            "name": "Memoria de video",
+            "value_id": null,
+            "value_name": "1 GB",
+            "value_struct": {
+                "number": 1,
+                "unit": "GB"
+            },
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "VIDEO_MEMORY_TYPE",
+            "name": "Tipo de memoria de video",
+            "value_id": "-1",
+            "value_name": null,
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "WEBCAM",
+            "name": "Cámara web",
+            "value_id": "242085",
+            "value_name": "Sí",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "WEIGHT",
+            "name": "Peso",
+            "value_id": null,
+            "value_name": "2.1 kg",
+            "value_struct": {
+                "number": 2.1,
+                "unit": "kg"
+            },
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "WITH_TOUCH_SCREEN",
+            "name": "Con pantalla táctil",
+            "value_id": "242084",
+            "value_name": "No",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "WITH_USB",
+            "name": "Con USB",
+            "value_id": "242085",
+            "value_name": "Sí",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        }
+    ],
+    "warnings": [],
+    "listing_source": "",
+    "variations": [
+        {
+            "id": 32053903972,
+            "price": 13749,
+            "attribute_combinations": [
+                {
+                    "id": "COLOR",
+                    "name": "Color",
+                    "value_id": "52053",
+                    "value_name": "Plateado",
+                    "value_struct": null
+                }
+            ],
+            "available_quantity": 5000,
+            "sold_quantity": 25,
+            "sale_terms": [],
+            "picture_ids": [
+                "899873-MLA27546306071_062018",
+                "858575-MLA27546302127_062018",
+                "636022-MLA27546270949_062018",
+                "921454-MLA27546299657_062018",
+                "751342-MLA27546297166_062018",
+                "617334-MLA27546297167_062018",
+                "988814-MLA27546297169_062018",
+                "945475-MLA27546310039_062018"
+            ],
+            "seller_custom_field": "81D0000RAR",
+            "catalog_product_id": "MLA10389803"
+        }
+    ],
+    "status": "active",
+    "sub_status": [],
+    "tags": [
+        "brand_verified",
+        "good_quality_picture",
+        "good_quality_thumbnail",
+        "immediate_payment",
+        "cart_eligible"
+    ],
+    "warranty": "Garantia Oficial Lenovo Argentina 1 Año.",
+    "catalog_product_id": "MLA10636668",
+    "domain_id": "MLA-NOTEBOOKS",
+    "parent_item_id": null,
+    "differential_pricing": null,
+    "deal_ids": [],
+    "automatic_relist": false,
+    "date_created": "2018-06-12T01:02:52.000Z",
+    "last_updated": "2019-02-01T15:57:14.618Z",
+    "health": 0.9
+}
