@@ -1,0 +1,35 @@
+import { formatProducts, formatItem, mountCommonItem } from './'
+import products from './__fixtures__/products.json'
+
+describe('Helpers', () => {
+  describe('formatProducts', () => {
+    it('Should format the data into the desired format', () => {
+      const result = formatProducts(products)
+      expect(result).toHaveProperty('author')
+      expect(result.author).toHaveProperty('name')
+      expect(result.author).toHaveProperty('lastname')
+      expect(typeof result.author.name).toBe('string')
+      expect(typeof result.author.lastname).toBe('string')
+      expect(result).toHaveProperty('categories')
+      expect(Array.isArray(result.categories)).toBe(true)
+      expect(result).toHaveProperty('items')
+      expect(result.items[0]).toHaveProperty('id')
+      expect(typeof result.items[0].id).toBe('string')
+      expect(result.items[0]).toHaveProperty('title')
+      expect(typeof result.items[0].title).toBe('string')
+      expect(result.items[0]).toHaveProperty('price')
+      expect(result.items[0]).toHaveProperty('picture')
+      expect(typeof result.items[0].picture).toBe('string')
+      expect(result.items[0]).toHaveProperty('condition')
+      expect(typeof result.items[0].condition).toBe('string')
+      expect(result.items[0]).toHaveProperty('free_shipping')
+      expect(typeof result.items[0].free_shipping).toBe('boolean')
+      expect(result.items[0].price).toHaveProperty('currency')
+      expect(typeof result.items[0].price.currency).toBe('string')
+      expect(result.items[0].price).toHaveProperty('amount')
+      expect(typeof result.items[0].price.amount).toBe('number')
+      expect(result.items[0].price).toHaveProperty('decimals')
+      expect(typeof result.items[0].price.decimals).toBe('number')
+    })
+  })
+})

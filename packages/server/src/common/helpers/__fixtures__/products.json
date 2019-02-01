@@ -1,0 +1,859 @@
+{
+    "site_id": "MLA",
+    "query": "apple ipod",
+    "paging": {
+        "total": 592,
+        "offset": 0,
+        "limit": 4,
+        "primary_results": 592
+    },
+    "results": [
+        {
+            "id": "MLA747981872",
+            "site_id": "MLA",
+            "title": "Apple Ipod Touch 32gb 6ta Gen Nuevos Gtia Escrita",
+            "seller": {
+                "id": 133799638,
+                "power_seller_status": "gold",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 14999,
+            "currency_id": "ARS",
+            "available_quantity": 1,
+            "sold_quantity": 3,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2038-09-08T04:00:00.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.ar/MLA-747981872-apple-ipod-touch-32gb-6ta-gen-nuevos-gtia-escrita-_JM",
+            "thumbnail": "http://mla-s1-p.mlstatic.com/843653-MLA28149398126_092018-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 12,
+                "amount": 2046.99,
+                "rate": 63.77,
+                "currency_id": "ARS"
+            },
+            "address": {
+                "state_id": "AR-C",
+                "state_name": "Capital Federal",
+                "city_id": "",
+                "city_name": "Tribunales"
+            },
+            "shipping": {
+                "free_shipping": true,
+                "mode": "me2",
+                "tags": [
+                    "mandatory_free_shipping"
+                ],
+                "logistic_type": "xd_drop_off",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "AR",
+                    "name": "Argentina"
+                },
+                "state": {
+                    "id": "AR-C",
+                    "name": "Capital Federal"
+                },
+                "city": {
+                    "id": "",
+                    "name": "Tribunales"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "source": 1572,
+                    "id": "BRAND",
+                    "name": "Marca",
+                    "value_id": "9344",
+                    "value_name": "Apple",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros"
+                },
+                {
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 1572,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLA43718",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "reviews": {},
+            "tags": [
+                "brand_verified",
+                "good_quality_picture",
+                "good_quality_thumbnail",
+                "immediate_payment",
+                "cart_eligible"
+            ]
+        },
+        {
+            "id": "MLA687434138",
+            "site_id": "MLA",
+            "title": "Apple Ipod Touch 32gb 6ta Gen Nuevos - Directo Importador",
+            "seller": {
+                "id": 5276693,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 14499,
+            "currency_id": "ARS",
+            "available_quantity": 1,
+            "sold_quantity": 25,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2037-10-08T14:23:37.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.ar/MLA-687434138-apple-ipod-touch-32gb-6ta-gen-nuevos-directo-importador-_JM",
+            "thumbnail": "http://mla-s1-p.mlstatic.com/999518-MLA29282865960_012019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 12,
+                "amount": 1978.75,
+                "rate": 63.77,
+                "currency_id": "ARS"
+            },
+            "address": {
+                "state_id": "AR-C",
+                "state_name": "Capital Federal",
+                "city_id": "TUxBQlZJTDcwOTla",
+                "city_name": "Villa Urquiza"
+            },
+            "shipping": {
+                "free_shipping": true,
+                "mode": "me2",
+                "tags": [
+                    "self_service_out",
+                    "mandatory_free_shipping"
+                ],
+                "logistic_type": "xd_drop_off",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "AR",
+                    "name": "Argentina"
+                },
+                "state": {
+                    "id": "AR-C",
+                    "name": "Capital Federal"
+                },
+                "city": {
+                    "id": "TUxBQlZJTDcwOTla",
+                    "name": "Villa Urquiza"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "name": "Marca",
+                    "value_id": "9344",
+                    "value_name": "Apple",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 17405550362297,
+                    "id": "BRAND"
+                },
+                {
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 1,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null
+                },
+                {
+                    "value_id": null,
+                    "value_name": "Ipod touch 32gb 6ta gen",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 17405550362297,
+                    "id": "MODEL",
+                    "name": "Modelo"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLA32614",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "reviews": {
+                "rating_average": 5,
+                "total": 3
+            },
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail",
+                "immediate_payment",
+                "cart_eligible"
+            ]
+        },
+        {
+            "id": "MLA693858359",
+            "site_id": "MLA",
+            "title": "Reproductores De Mp3 Y Mp4,apple Ipod Shuffle, 2 Gb, Esp..",
+            "seller": {
+                "id": 284666076,
+                "power_seller_status": null,
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": [
+                    "international_seller"
+                ]
+            },
+            "price": 12946.57,
+            "currency_id": "ARS",
+            "available_quantity": 1,
+            "sold_quantity": 0,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_pro",
+            "stop_time": "2037-11-20T17:56:41.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.ar/MLA-693858359-reproductores-de-mp3-y-mp4apple-ipod-shuffle-2-gb-esp-_JM",
+            "thumbnail": "http://mla-s2-p.mlstatic.com/998530-MLA27457883162_052018-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 6,
+                "amount": 2157.76,
+                "rate": 0,
+                "currency_id": "ARS"
+            },
+            "address": {
+                "state_id": "AR-B",
+                "state_name": "Buenos Aires",
+                "city_id": "TUxBQ0FWRTc5OTQ1",
+                "city_name": "Avellaneda"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "me1",
+                "tags": [],
+                "logistic_type": "default",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "AR",
+                    "name": "Argentina"
+                },
+                "state": {
+                    "id": "AR-B",
+                    "name": "Buenos Aires"
+                },
+                "city": {
+                    "id": "TUxBQ0FWRTc5OTQ1",
+                    "name": "Avellaneda"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "source": 1,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros"
+                }
+            ],
+            "differential_pricing": {
+                "id": 33603181
+            },
+            "original_price": null,
+            "category_id": "MLA12818",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "reviews": {},
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail",
+                "immediate_payment",
+                "cart_eligible"
+            ]
+        },
+        {
+            "id": "MLA613834286",
+            "site_id": "MLA",
+            "title": "Rosario Nuevo Ipod Touch 6g (6ta Gen) 32gb Local Factura",
+            "seller": {
+                "id": 22661295,
+                "power_seller_status": "gold",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 16641,
+            "currency_id": "ARS",
+            "available_quantity": 1,
+            "sold_quantity": 5,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2036-03-21T15:07:34.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.ar/MLA-613834286-rosario-nuevo-ipod-touch-6g-6ta-gen-32gb-local-factura-_JM",
+            "thumbnail": "http://mla-s1-p.mlstatic.com/480901-MLA20430048194_092015-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 12,
+                "amount": 2271.08,
+                "rate": 63.77,
+                "currency_id": "ARS"
+            },
+            "address": {
+                "state_id": "AR-S",
+                "state_name": "Santa Fe",
+                "city_id": "TUxBQ1JPUzg1Yjg3",
+                "city_name": "Rosario"
+            },
+            "shipping": {
+                "free_shipping": true,
+                "mode": "me2",
+                "tags": [
+                    "mandatory_free_shipping"
+                ],
+                "logistic_type": "drop_off",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "AR",
+                    "name": "Argentina"
+                },
+                "state": {
+                    "id": "AR-S",
+                    "name": "Santa Fe"
+                },
+                "city": {
+                    "id": "TUxBQ1JPUzg1Yjg3",
+                    "name": "Rosario"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "source": 4060709329251625,
+                    "id": "BRAND",
+                    "name": "Marca",
+                    "value_id": "9344",
+                    "value_name": "Apple",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros"
+                },
+                {
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 1,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLA43718",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "reviews": {},
+            "tags": [
+                "good_quality_thumbnail",
+                "brand_verified",
+                "dragged_bids_and_visits",
+                "good_quality_picture",
+                "immediate_payment",
+                "cart_eligible"
+            ]
+        }
+    ],
+    "secondary_results": [],
+    "related_results": [],
+    "sort": {
+        "id": "relevance",
+        "name": "Más relevantes"
+    },
+    "available_sorts": [
+        {
+            "id": "price_asc",
+            "name": "Menor precio"
+        },
+        {
+            "id": "price_desc",
+            "name": "Mayor precio"
+        }
+    ],
+    "filters": [
+        {
+            "id": "category",
+            "name": "Categorías",
+            "type": "text",
+            "values": [
+                {
+                    "id": "MLA7262",
+                    "name": "iPod",
+                    "path_from_root": [
+                        {
+                            "id": "MLA1000",
+                            "name": "Electrónica, Audio y Video"
+                        },
+                        {
+                            "id": "MLA409810",
+                            "name": "Audio"
+                        },
+                        {
+                            "id": "MLA1012",
+                            "name": "Audio Portátil  y Radios"
+                        },
+                        {
+                            "id": "MLA7262",
+                            "name": "iPod"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "available_filters": [
+        {
+            "id": "9997262-AMLA_7262_1",
+            "name": "Modelo",
+            "type": "text",
+            "values": [
+                {
+                    "id": "9997262-AMLA_7262_1-MMLA6838",
+                    "name": "iPod touch",
+                    "results": 389
+                },
+                {
+                    "id": "9997262-AMLA_7262_1-MMLA244",
+                    "name": "iPod nano",
+                    "results": 115
+                },
+                {
+                    "id": "9997262-AMLA_7262_1-MMLA245",
+                    "name": "iPod shuffle",
+                    "results": 49
+                },
+                {
+                    "id": "9997262-AMLA_7262_1-MMLA3917",
+                    "name": "iPod classic",
+                    "results": 18
+                },
+                {
+                    "id": "9997262-AMLA_7262_1-MMLA246",
+                    "name": "iPod video",
+                    "results": 8
+                },
+                {
+                    "id": "9997262-AMLA_7262_1-MMLA242",
+                    "name": "iPod e iPod photo",
+                    "results": 2
+                },
+                {
+                    "id": "9997262-AMLA_7262_1-MMLA243",
+                    "name": "iPod mini",
+                    "results": 2
+                },
+                {
+                    "id": "9997262-AMLA_7262_1-MMLA241",
+                    "name": "Otros",
+                    "results": 9
+                }
+            ]
+        },
+        {
+            "id": "9997262-AMLA_7262_2",
+            "name": "Capacidad",
+            "type": "text",
+            "values": [
+                {
+                    "id": "9997262-AMLA_7262_2-MMLA10627",
+                    "name": "32 GB",
+                    "results": 188
+                },
+                {
+                    "id": "9997262-AMLA_7262_2-MMLA13556",
+                    "name": "16 GB",
+                    "results": 185
+                },
+                {
+                    "id": "9997262-AMLA_7262_2-MMLA259",
+                    "name": "8 GB",
+                    "results": 91
+                },
+                {
+                    "id": "9997262-AMLA_7262_2-MMLA250",
+                    "name": "2 GB",
+                    "results": 29
+                },
+                {
+                    "id": "9997262-AMLA_7262_2-MMLA27092",
+                    "name": "64 GB",
+                    "results": 22
+                },
+                {
+                    "id": "9997262-AMLA_7262_2-MMLA253",
+                    "name": "4 GB",
+                    "results": 20
+                },
+                {
+                    "id": "9997262-AMLA_7262_2-MMLA247",
+                    "name": "1 GB",
+                    "results": 16
+                },
+                {
+                    "id": "9997262-AMLA_7262_2-MMLA252",
+                    "name": "30 GB",
+                    "results": 9
+                },
+                {
+                    "id": "9997262-AMLA_7262_2-MMLA260",
+                    "name": "80 GB",
+                    "results": 8
+                },
+                {
+                    "id": "9997262-AMLA_7262_2-MMLA13554",
+                    "name": "120 GB",
+                    "results": 5
+                },
+                {
+                    "id": "9997262-AMLA_7262_2-MMLA3964",
+                    "name": "160 GB",
+                    "results": 5
+                },
+                {
+                    "id": "9997262-AMLA_7262_2-MMLA256",
+                    "name": "512 MB",
+                    "results": 3
+                },
+                {
+                    "id": "9997262-AMLA_7262_2-MMLA257",
+                    "name": "6 GB",
+                    "results": 1
+                },
+                {
+                    "id": "9997262-AMLA_7262_2-MMLA258",
+                    "name": "60 GB",
+                    "results": 1
+                }
+            ]
+        },
+        {
+            "id": "state",
+            "name": "Ubicación",
+            "type": "text",
+            "values": [
+                {
+                    "id": "TUxBUENBUGw3M2E1",
+                    "name": "Capital Federal",
+                    "results": 260
+                },
+                {
+                    "id": "TUxBUEdSQWU4ZDkz",
+                    "name": "Bs.As. G.B.A. Norte",
+                    "results": 85
+                },
+                {
+                    "id": "TUxBUEdSQXJlMDNm",
+                    "name": "Bs.As. G.B.A. Sur",
+                    "results": 56
+                },
+                {
+                    "id": "TUxBUEdSQWVmNTVm",
+                    "name": "Bs.As. G.B.A. Oeste",
+                    "results": 32
+                },
+                {
+                    "id": "TUxBUFNBTmU5Nzk2",
+                    "name": "Santa Fe",
+                    "results": 20
+                },
+                {
+                    "id": "TUxBUFpPTmFpbnRl",
+                    "name": "Buenos Aires Interior",
+                    "results": 15
+                },
+                {
+                    "id": "TUxBUENPUmFkZGIw",
+                    "name": "Córdoba",
+                    "results": 10
+                },
+                {
+                    "id": "TUxBUE1FTmE5OWQ4",
+                    "name": "Mendoza",
+                    "results": 5
+                },
+                {
+                    "id": "TUxBUEpVSnk3YmUz",
+                    "name": "Jujuy",
+                    "results": 5
+                },
+                {
+                    "id": "TUxBUE5FVW4xMzMzNQ",
+                    "name": "Neuquén",
+                    "results": 4
+                },
+                {
+                    "id": "TUxBUEVOVHMzNTdm",
+                    "name": "Entre Ríos",
+                    "results": 3
+                },
+                {
+                    "id": "TUxBUFRVQ244NmM3",
+                    "name": "Tucumán",
+                    "results": 3
+                },
+                {
+                    "id": "TUxBUE1JU3MzNjIx",
+                    "name": "Misiones",
+                    "results": 2
+                },
+                {
+                    "id": "TUxBUExBWmE1OWMy",
+                    "name": "La Pampa",
+                    "results": 2
+                },
+                {
+                    "id": "TUxBUFLNT29iZmZm",
+                    "name": "Río Negro",
+                    "results": 2
+                },
+                {
+                    "id": "TUxBUFNBTnM0ZTcz",
+                    "name": "San Luis",
+                    "results": 2
+                },
+                {
+                    "id": "TUxBUENPUnM5MjI0",
+                    "name": "Corrientes",
+                    "results": 1
+                },
+                {
+                    "id": "TUxBUEZPUmE1OTk5",
+                    "name": "Formosa",
+                    "results": 1
+                },
+                {
+                    "id": "TUxBUExBWmEyNzY0",
+                    "name": "La Rioja",
+                    "results": 1
+                },
+                {
+                    "id": "TUxBUFNBTGFjMTJi",
+                    "name": "Salta",
+                    "results": 1
+                },
+                {
+                    "id": "TUxBUFNBTm5lYjU4",
+                    "name": "San Juan",
+                    "results": 1
+                }
+            ]
+        },
+        {
+            "id": "price",
+            "name": "Precio",
+            "type": "range",
+            "values": [
+                {
+                    "id": "*-2000.0",
+                    "name": "Hasta $ 2.000",
+                    "results": 193
+                },
+                {
+                    "id": "2000.0-4500.0",
+                    "name": "$2.000 a $4.500",
+                    "results": 192
+                },
+                {
+                    "id": "4500.0-*",
+                    "name": "Más de $4.500",
+                    "results": 207
+                }
+            ]
+        },
+        {
+            "id": "accepts_mercadopago",
+            "name": "Filtro por MercadoPago",
+            "type": "boolean",
+            "values": [
+                {
+                    "id": "yes",
+                    "name": "Con MercadoPago",
+                    "results": 592
+                }
+            ]
+        },
+        {
+            "id": "installments",
+            "name": "Pago",
+            "type": "text",
+            "values": [
+                {
+                    "id": "yes",
+                    "name": "En cuotas",
+                    "results": 592
+                },
+                {
+                    "id": "no_interest",
+                    "name": "Sin interés",
+                    "results": 109
+                }
+            ]
+        },
+        {
+            "id": "condition",
+            "name": "Condición",
+            "type": "text",
+            "values": [
+                {
+                    "id": "new",
+                    "name": "Nuevo",
+                    "results": 110
+                },
+                {
+                    "id": "used",
+                    "name": "Usado",
+                    "results": 481
+                }
+            ]
+        },
+        {
+            "id": "shipping",
+            "name": "Tipo de entrega",
+            "type": "text",
+            "values": [
+                {
+                    "id": "mercadoenvios",
+                    "name": "Con envío",
+                    "results": 465
+                }
+            ]
+        },
+        {
+            "id": "power_seller",
+            "name": "Filtro por calidad de vendedores",
+            "type": "boolean",
+            "values": [
+                {
+                    "id": "yes",
+                    "name": "Mejores vendedores",
+                    "results": 7
+                }
+            ]
+        },
+        {
+            "id": "buying_mode",
+            "name": "Filtro por tipo de venta",
+            "type": "text",
+            "values": [
+                {
+                    "id": "buy_it_now",
+                    "name": "Compra inmediata",
+                    "results": 592
+                }
+            ]
+        },
+        {
+            "id": "since",
+            "name": "Filtro por fecha de comienzo",
+            "type": "text",
+            "values": [
+                {
+                    "id": "today",
+                    "name": "Publicados hoy",
+                    "results": 3
+                }
+            ]
+        },
+        {
+            "id": "until",
+            "name": "Filtro por fecha de finalización",
+            "type": "text",
+            "values": [
+                {
+                    "id": "today",
+                    "name": "Finalizan hoy",
+                    "results": 2
+                }
+            ]
+        },
+        {
+            "id": "has_video",
+            "name": "Filtro por publicaciones con video",
+            "type": "boolean",
+            "values": [
+                {
+                    "id": "yes",
+                    "name": "Publicaciones con video",
+                    "results": 19
+                }
+            ]
+        },
+        {
+            "id": "has_pictures",
+            "name": "Filtro por publicaciones con imágenes",
+            "type": "boolean",
+            "values": [
+                {
+                    "id": "yes",
+                    "name": "Con fotos",
+                    "results": 591
+                }
+            ]
+        },
+        {
+            "id": "shipping_cost",
+            "name": "Costo de envío",
+            "type": "text",
+            "values": [
+                {
+                    "id": "free",
+                    "name": "Gratis",
+                    "results": 154
+                }
+            ]
+        }
+    ]
+}
