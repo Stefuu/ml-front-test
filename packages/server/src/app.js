@@ -8,7 +8,8 @@ axios.defaults.baseURL = 'https://api.mercadolibre.com/sites/MLA/'
 const port = process.env.SERVER_PORT || 8088
 const app = express()
 app.use(routes)
-const server = http.createServer(app)
+
+export const server = http.createServer(app)
 
 export default () => {
   server.listen(port)
