@@ -5,18 +5,7 @@ export const formatProducts = (json) => {
     return filters[0].values[0].path_from_root.map(category => category.name)
   }
 
-  const items = json.results.map(item => ({
-    id: item.id,
-    title: item.title,
-    price: {
-      currency: item.currency_id,
-      amount: parseInt(item.price, 10),
-      decimals: parseFloat((item.price % 1).toFixed(2), 10)
-    },
-    picture: item.thumbnail,
-    condition: item.condition,
-    free_shipping: item.shipping.free_shipping
-  }))
+  const items = json.results.map(item => mountCommonItem(item))
 
   return {
     author: {
@@ -28,6 +17,31 @@ export const formatProducts = (json) => {
   }
 }
 
-export const formatItem = (json) => {
-  return {}
+export const formatItem = (item, description) => {
+  return {
+    author: {
+      name: 'Stéfano',
+      lastname: 'Damiano'
+    },
+    item: {
+      ...mountCommonItem(item),
+      description: description.plain_text
+    }
+  }
+}
+
+const mountCommonItem = (item) => {
+  return {
+    id: item.id,
+    title: item.title,
+    price: {
+      currency: item.currency_id,
+      amount: parseInt(item.price, 10),
+      decimals: parseFloat((item.price % 1).toFixed(2), 10)
+    },
+    picture: item.thumbnail,
+    condition: item.condition,
+    free_shipping: item.shipping.free_shipping,
+    sold_quantity: item.sold_quantity
+  }
 }

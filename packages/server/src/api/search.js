@@ -4,8 +4,8 @@ import { formatProducts } from '../common/helpers'
 import { baseUrl } from '../common/constants'
 
 export default (req, res) => {
-  const {term, offset, limit} = req.params
-  let url = `${baseUrl}/sites/MLA/search?q=${term}`
+  const {q, offset, limit} = req.query
+  let url = `${baseUrl}/sites/MLA/search?q=${q}`
   if (offset) url += `&offset=${offset}`
   if (limit) url += `&limit=${limit}`
 

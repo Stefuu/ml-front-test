@@ -7,9 +7,9 @@ export default async (req, res) => {
   const { id } = req.params
 
   try {
-    const idApiData = await axios(`${baseUrl}/item/${id}`)
-    const descriptionApiData = await axios(`${baseUrl}/item/${id}/description`)
-    const data = formatItem(idApiData, descriptionApiData)
+    const itemJson = await axios(`${baseUrl}/items/${id}`)
+    const descriptionJson = await axios(`${baseUrl}/items/${id}/description`)
+    const data = formatItem(itemJson.data, descriptionJson.data)
     res.setHeader('Content-Type', 'application/json')
     res.json(data)
   } catch (err) {
