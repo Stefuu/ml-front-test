@@ -16,14 +16,17 @@ const Routes = () => (
         component={NotFound}
       />
       <Route
+        exact
         path='/'
         component={Search}
       />
       <Route
+        exact
         path='/items'
         component={SearchResults}
       />
       <Route
+        exact
         path='/items/:id'
         component={ProductDetails}
       />

@@ -1,4 +1,5 @@
 import React from 'react'
+import { withRouter } from 'react-router-dom'
 const SearchContext = React.createContext()
 export const Consumer = SearchContext.Consumer
 
@@ -6,6 +7,7 @@ class SearchBarProvider extends React.Component {
 
   onSubmit = (e) => {
     e.preventDefault()
+    this.props.history.push('/items?q=' + this.state.searchTerm)
   }
 
   onChange = (e) => this.setState({ searchTerm: e.target.value })
@@ -33,4 +35,4 @@ export const withSearchBar = (Component) => {
   )
 }
 
-export default SearchBarProvider
+export default withRouter(SearchBarProvider)

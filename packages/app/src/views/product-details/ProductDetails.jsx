@@ -1,11 +1,17 @@
 import React from 'react'
+import SearchBar from '../../common/SearchBar'
+import { withSearchBar } from '../../common/SearchBarContext'
 
-class ProductsDetails extends React.Component {
+class ProductDetails extends React.Component {
   render () {
     return (
-      <div>ProductsDetails</div>
+      <SearchBar
+        onSubmit={this.props.context.onSubmit}
+        onChange={this.props.context.onChange}
+        searchTerm={this.props.context.searchTerm}
+      />
     )
   }
 }
 
-export default ProductsDetails
+export default withSearchBar(ProductDetails)
