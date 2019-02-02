@@ -1,26 +1,17 @@
 import React from 'react'
 import SearchBar from '../../common/SearchBar'
+import { withSearchBar } from '../../common/SearchBarContext'
 
 class Search extends React.Component {
-  state = {
-    searchTerm: ''
-  }
-
-  onSubmit = (e) => {
-    e.preventDefault()
-  }
-
-  onChange = (e) => this.setState({ searchTerm: e.target.value })
-
   render () {
     return (
-      <SearchBar 
-        onSubmit={this.onSubmit}
-        onChange={this.onChange}
-        searchTerm={this.state.searchTerm} 
+      <SearchBar
+        onSubmit={this.props.context.onSubmit}
+        onChange={this.props.context.onChange}
+        searchTerm={this.props.context.searchTerm}
       />
     )
   }
 }
 
-export default Search
+export default withSearchBar(Search)

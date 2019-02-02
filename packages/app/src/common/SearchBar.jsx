@@ -1,3 +1,4 @@
+
 import React from 'react'
 import PropTypes from 'prop-types'
 import { rem } from 'polished'
@@ -33,6 +34,7 @@ const SearchBar = (props) => (
         </Box>
         <Flex
           onSubmit={props.onSubmit}
+          mr={rem(15)}
           as={'form'}
           width='100%'>
           <InputText
