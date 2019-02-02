@@ -1,13 +1,24 @@
 import React from 'react'
-import PageContainer from '../../common/PageContainer'
 import SearchBar from '../../common/SearchBar'
 
 class Search extends React.Component {
+  state = {
+    searchTerm: ''
+  }
+
+  onSubmit = (e) => {
+    e.preventDefault()
+  }
+
+  onChange = (e) => this.setState({ searchTerm: e.target.value })
+
   render () {
     return (
-      <PageContainer>
-        <SearchBar />
-      </PageContainer>
+      <SearchBar 
+        onSubmit={this.onSubmit}
+        onChange={this.onChange}
+        searchTerm={this.state.searchTerm} 
+      />
     )
   }
 }
