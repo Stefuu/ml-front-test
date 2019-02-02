@@ -1,5 +1,4 @@
 import React from 'react'
-import styled from 'styled-components'
 import { withSearchBar } from '../../components/contexts/SearchBarContext'
 import axios from 'axios'
 import querystring from 'querystring'

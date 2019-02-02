@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { height, width } from 'styled-system'
+import { height, space, width } from 'styled-system'
 
 const RetinaImage = styled.div`
     background-image: url(${props => props.regular});
@@ -11,6 +11,7 @@ const RetinaImage = styled.div`
         background-image: url(${props => props.retina});
     }
     ${height}
+    ${space}
     ${width}
 `
 

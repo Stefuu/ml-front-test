@@ -34,7 +34,7 @@ const SearchBar = (props) => (
         </Box>
         <Flex
           onSubmit={props.onSubmit}
-          mr={rem(15)}
+          mr={rem(5)}
           as={'form'}
           width='100%'>
           <InputText
@@ -42,7 +42,6 @@ const SearchBar = (props) => (
             onChange={props.onChange}
             value={props.searchTerm}
             type='text'
-            maxWidth={rem(846)}
             placeholder='Nunca dejes de buscar' />
           <SearchButton onClick={props.onSubmit}>
             <RetinaImage

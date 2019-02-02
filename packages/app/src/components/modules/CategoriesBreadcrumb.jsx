@@ -6,6 +6,7 @@ import { theme } from 'styled-tools'
 
 const Container = styled(Box)`
  color: ${theme('colors.b40')};
+ font-size: 14px;
  span {
    :last-child {
      font-weight: bold;

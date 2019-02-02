@@ -4,7 +4,7 @@ import Box from '../elements/Box'
 const Container = (props) => (
   <Box
     m='0 auto'
-    maxWidth={1040}
+    maxWidth={980}
     {...props}>
     {props.children}
   </Box>
