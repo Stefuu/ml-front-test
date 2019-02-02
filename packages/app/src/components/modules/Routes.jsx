@@ -1,11 +1,11 @@
 import React from 'react'
 import { Switch, Redirect } from 'react-router-dom'
 import { Route } from 'react-router'
-import NotFound from '../common/404'
-import Search from '../views/search'
-import SearchResults from '../views/search-results'
-import ProductDetails from '../views/product-details'
-import SearchBarProvider from '../common/SearchBarContext'
+import NotFound from './404'
+import Search from '../../views/search'
+import SearchResults from '../../views/search-results'
+import ProductDetails from '../../views/product-details'
+import SearchBarProvider from '../contexts/SearchBarContext'
 
 const Routes = () => (
   <SearchBarProvider>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Box from '../components/elements/Box'
+import Box from '../elements/Box'
 
 const Container = (props) => (
   <Box

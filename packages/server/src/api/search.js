@@ -1,7 +1,7 @@
 import axios from 'axios'
 import logger from '../config/logger'
-import { formatProducts } from '../common/helpers'
-import { baseUrl } from '../common/constants'
+import { formatProducts } from '../components/modules/helpers'
+import { baseUrl } from '../components/modules/constants'
 
 export default (req, res) => {
   const {q, offset, limit} = req.query

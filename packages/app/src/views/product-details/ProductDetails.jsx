@@ -1,15 +1,17 @@
 import React from 'react'
-import SearchBar from '../../common/SearchBar'
-import { withSearchBar } from '../../common/SearchBarContext'
+import { withSearchBar } from '../../components/contexts/SearchBarContext'
+import Content from '../../components/modules/Content'
+import Container from '../../components/modules/Container'
+import CategoriesBreadcrumb from '../../components/modules/CategoriesBreadcrumb'
 
 class ProductDetails extends React.Component {
   render () {
     return (
-      <SearchBar
-        onSubmit={this.props.context.onSubmit}
-        onChange={this.props.context.onChange}
-        searchTerm={this.props.context.searchTerm}
-      />
+      <Content>
+        <Container>
+          <CategoriesBreadcrumb categories={[]} />
+        </Container>
+      </Content>
     )
   }
 }
