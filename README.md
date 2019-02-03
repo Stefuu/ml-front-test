@@ -43,7 +43,7 @@ $ yarn server:test
 # Principais tecnologias utilizadas
 
 ## Lerna:
-[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
+[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)  
 Utilizei lerna para aplicar o conceito de monorepo, já que a aplicação como um todo depende de dois pacotes (server e app), a abordagem do lerna pareceu encaixar bem por conta disso, além de unificar versionamento e facilitar a execução de scripts (não é necessário entrar no diretório de cada pacote inicializá-los), utilizei o yarn workspaces para deixar todas as dependências em um único node_modules na raiz do projeto, os node_modules de cada pacote tem apénas links simbólicos para o binário quando necessário 
 
 ## Storybook:
