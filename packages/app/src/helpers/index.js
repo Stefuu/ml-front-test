@@ -10,3 +10,7 @@ const format = (value, n, x, s, c) => {
 export const formatCurrency = (value) => {
   return format(value, 0, 3, '.', ',')
 }
+
+export const formatDecimals = (decimals) => {
+  return decimals > 0 ? decimals.toString().split('.')[1] : '00'
+}
