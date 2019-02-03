@@ -1,6 +1,6 @@
 import React from 'react'
 import { withRouter } from 'react-router-dom'
-import SearchBar from '../modules/SearchBar'
+import SearchBar from '../modules/search-bar'
 const SearchContext = React.createContext()
 export const Consumer = SearchContext.Consumer
 

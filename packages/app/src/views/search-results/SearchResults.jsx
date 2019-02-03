@@ -60,7 +60,9 @@ class SearchResults extends React.Component {
 
   render () {
     const { products, categories, loading, error } = this.state
+    
     if(error) return <Error />
+
     if(loading) {
       return (
         <Flex 

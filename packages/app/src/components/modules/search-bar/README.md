@@ -1,0 +1,3 @@
+# SearchBar
+
+## SearchBar component

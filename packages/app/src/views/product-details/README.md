@@ -1,0 +1,3 @@
+# View ProductDetails
+
+## View component

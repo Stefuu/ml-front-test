@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spinner should render [snapshot] 1`] = `
+<div
+  class="sc-bdVaJa hvYkfp"
+  color="rgba(255,255,255,.8)"
+  size="20"
+/>
+`;

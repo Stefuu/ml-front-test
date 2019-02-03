@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoriesBreadcrumb should render [snapshot] 1`] = `
+<div
+  class="sc-bdVaJa sc-bwzfXH gwEKIb"
+>
+  <span>
+    Cat, Dog, Bird
+    
+  </span>
+</div>
+`;
