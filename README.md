@@ -3,6 +3,7 @@
 # Inicialização:
 O projeto requer node instalado na versão 10.0.0 ou superior  
 Também deixe as portas 3000 e 8088 livres  
+  
 Clone o projeto
 ```
 $ git clone https://github.com/Stefuu/ml-front-test.git
