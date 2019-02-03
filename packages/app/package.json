@@ -24,6 +24,7 @@
     "test": "SKIP_PREFLIGHT_CHECK=true react-scripts test --verbose",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
+    "cypress": "cypress open",
     "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
