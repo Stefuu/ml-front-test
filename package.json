@@ -10,6 +10,8 @@
   "scripts":{
     "app:start": "lerna run --stream --scope app start",
     "server:start": "lerna run --stream --scope server start",
+    "app:test": "lerna run --stream --scope app test",
+    "server:test": "lerna run --stream --scope server test",
     "storybook": "lerna run --stream --scope app storybook",
     "cypress": "lerna run --stream --scope app cypress" 
 
