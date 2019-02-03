@@ -32,7 +32,13 @@ describe('SearchResults', () => {
   it('Should render the products list', async () => {
     axios.mockImplementation(() => ({data}))
 
-    const { getByTestId } = render(<Component />)
-    await wait(() => expect(getByTestId('product-item-1')).not.toBe(undefined))
+    const { getByTestId, queryByTestId } = render(<Component />)
+    await wait(() => {
+      expect(getByTestId('product-item-1')).not.toBe(undefined)
+      expect(getByTestId('product-item-2')).not.toBe(undefined)
+      expect(getByTestId('product-item-3')).not.toBe(undefined)
+      expect(getByTestId('product-item-4')).not.toBe(undefined)
+      expect(queryByTestId('product-item-5')).toBeNull()
+    })
   })
 })

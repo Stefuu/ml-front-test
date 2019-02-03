@@ -8,6 +8,7 @@ describe('Search', () => {
     input.type('notebooks')
     input.type('{enter}')
     cy.wait(2000)
+    expect(cy.get('div[data-testid="product-item-1"]')).to.not.be.null
   })
 
   it('A User searches for "notebooks", then searches for "mouses"', () => {
@@ -15,15 +16,17 @@ describe('Search', () => {
     input.type('mouses')
     input.type('{enter}')
     cy.wait(2000)
+    expect(cy.get('div[data-testid="product-item-1"]')).to.not.be.null
   })
 
   it('A User searches for "apple ipod", then clicks the first result', () => {
     const input = cy.get('form input')
     input.type('apple ipod')
     input.type('{enter}')
-    const firstResult = cy.get('div[qa="product-item-1"]')
+    const firstResult = cy.get('div[data-testid="product-item-1"]')
     firstResult.click()
     cy.wait(2000)
+    expect(cy.get('button[data-testid="button-buy"]')).to.not.be.null
   })
 })
 
