@@ -1,0 +1,52 @@
+{
+	"author": {
+		"name": "Stéfano",
+		"lastname": "Damiano"
+	},
+	"categories": ["Computación", "Notebooks y Accesorios", "Notebooks"],
+	"items": [{
+		"id": "MLA688402084",
+		"title": "Notebook Gadnic 15,6 Intel Windows 10 4gb Cloudbook  + Funda",
+		"price": {
+			"currency": "ARS",
+			"amount": 9999,
+			"decimals": 0
+		},
+		"picture": "http://mla-s1-p.mlstatic.com/938057-MLA29221075330_012019-I.jpg",
+		"condition": "new",
+		"free_shipping": true
+	}, {
+		"id": "MLA688401224",
+		"title": "Notebook Gadnic 15,6 Windows 10 Hd Intel Cloudbook 4gb 32gb",
+		"price": {
+			"currency": "ARS",
+			"amount": 11699,
+			"decimals": 0
+		},
+		"picture": "http://mla-s1-p.mlstatic.com/891102-MLA29221075288_012019-I.jpg",
+		"condition": "new",
+		"free_shipping": true
+	}, {
+		"id": "MLA730963111",
+		"title": "Notebook Lenovo Ideapad 330 Dual Core 4gb 500g 14 W10 Mexx",
+		"price": {
+			"currency": "ARS",
+			"amount": 13749,
+			"decimals": 0
+		},
+		"picture": "http://mla-s2-p.mlstatic.com/899873-MLA27546306071_062018-I.jpg",
+		"condition": "new",
+		"free_shipping": true
+	}, {
+		"id": "MLA689572885",
+		"title": "Notebook Hp Celeron N4000 Intel 240 G6 3xu15lt 8gb Ram 500gb",
+		"price": {
+			"currency": "ARS",
+			"amount": 13699,
+			"decimals": 0
+		},
+		"picture": "http://mla-s2-p.mlstatic.com/960144-MLA29292988930_012019-I.jpg",
+		"condition": "new",
+		"free_shipping": true
+	}]
+}

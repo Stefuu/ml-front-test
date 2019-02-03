@@ -60,7 +60,7 @@ class SearchResults extends React.Component {
 
   render () {
     const { products, categories, loading, error } = this.state
-    
+
     if(error) return <Error />
 
     if(loading) {
@@ -74,6 +74,7 @@ class SearchResults extends React.Component {
         </Flex>
       )
     }
+    
     return (
       <Content>
           <Container>

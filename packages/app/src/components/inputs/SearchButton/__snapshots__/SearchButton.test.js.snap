@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchButton Should render [snapshot] 1`] = `
+<button
+  class="sc-bdVaJa HHisZ"
+  data-testid="search-button"
+/>
+`;

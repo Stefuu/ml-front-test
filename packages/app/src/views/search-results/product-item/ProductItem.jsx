@@ -39,6 +39,7 @@ const renderShippingImageIfFree = (item) => {
       height={rem(18)}
       regular={ShippingImageRegular}
       retina={ShippingImageRetina}
+      data-testid='shipping_ico'
       alt='Shipping Icon' />
   }
 
@@ -52,6 +53,7 @@ const ProductItem = ({ item, history, qa }) => {
       mx={rem(16)}
       py={rem(16)}
       qa={qa}
+      data-testid={qa || 'product-item-1'}
       justifyContent='space-between'>
       <Flex justifyContent='flex-start'>
         <Box
