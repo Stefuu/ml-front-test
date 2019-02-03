@@ -3,7 +3,7 @@ import { render } from 'react-testing-library'
 import Error from './Error'
 
 describe('Error', () => {
-  it('Deve renderizar [snapshot]', async () => {
+  it('Should render [snapshot]', async () => {
     const { container } = render(<Error />)
     expect(container.firstChild).toMatchSnapshot()
   })

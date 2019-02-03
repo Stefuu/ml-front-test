@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBarContext Should render [snapshot] 1`] = `
+<div
+  class="sc-bdVaJa sc-ifAKCX bJlpkh"
+>
+  <div
+    class="sc-bdVaJa fEwoCY"
+  >
+    <div
+      class="sc-bdVaJa cyMNyE"
+    >
+      <a
+        class="sc-bdVaJa cpotsO"
+        href="/"
+        mr="1.6875rem"
+      >
+        <div
+          alt="Logo"
+          class="sc-bxivhb jLbKpf"
+          height="2.25rem"
+          width="3.3125rem"
+        />
+      </a>
+      <form
+        class="sc-bdVaJa gGeGEh"
+        display="flex"
+        width="100%"
+      >
+        <input
+          class="sc-bwzfXH OeBeg"
+          data-testid="input-search"
+          placeholder="Nunca dejes de buscar"
+          type="text"
+          value=""
+        />
+        <button
+          class="sc-htpNat jQvakz"
+          data-testid="search-button"
+        >
+          <div
+            alt="Logo"
+            class="sc-bxivhb hGGnaW"
+            height="1.125rem"
+            width="1.25rem"
+          />
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;

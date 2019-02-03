@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error Should render [snapshot] 1`] = `
+<div
+  class="sc-bdVaJa cxfQT"
+>
+  <span>
+    Se produjo un error, vuelva a intentarlo más tarde
+  </span>
+</div>
+`;

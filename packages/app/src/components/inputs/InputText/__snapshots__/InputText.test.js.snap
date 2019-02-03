@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputText Should render [snapshot] 1`] = `
+<input
+  class="sc-bdVaJa kalBeQ"
+/>
+`;

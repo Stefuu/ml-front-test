@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RetinaImage Should render [snapshot] 1`] = `
+<div
+  alt="Logo"
+  class="sc-bdVaJa kXMFPb"
+  height="36"
+  width="53"
+/>
+`;

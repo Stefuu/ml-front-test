@@ -1,10 +1,10 @@
 import React from 'react'
 import { render } from 'react-testing-library'
-import Flex from './Flex'
+import InputText from './InputText'
 
-describe('Flex', () => {
+describe('InputText', () => {
   it('Should render [snapshot]', async () => {
-    const { container } = render(<Flex />)
+    const { container } = render(<InputText />)
     expect(container.firstChild).toMatchSnapshot()
   })
 })

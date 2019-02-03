@@ -40,6 +40,7 @@ const SearchBar = (props) => (
           width='100%'>
           <InputText
             fluid
+            data-testid='input-search'
             onChange={props.onChange}
             value={props.searchTerm}
             type='text'
