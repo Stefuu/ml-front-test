@@ -27,7 +27,7 @@ $ yarn app:start
 Tudo pronto, acesse http://localhost:3000 para testar a aplicação
 
 # Testes:
-Na raiz do projeto
+Na raiz do projeto  
 Para o app:
 ```sh
 $ yarn app:test
