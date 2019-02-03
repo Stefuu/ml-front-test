@@ -1,7 +1,7 @@
 import axios from 'axios'
 import logger from '../config/logger'
-import { formatItem } from '../components/modules/helpers'
-import { baseUrl } from '../components/modules/constants'
+import { formatItem } from '../common/helpers'
+import { baseUrl } from '../common/constants'
 
 export default async (req, res) => {
   const { id } = req.params

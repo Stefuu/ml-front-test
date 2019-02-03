@@ -1,11 +1,15 @@
 import React from 'react'
-import Box from '../../elements/Box'
+import Flex from '../../elements/Flex'
 
 const Error = () => (
-  <Box
+  <Flex
+    justifyContent='center'
+    alignItems='center'
+    width='100vw'
+    height={300}
     fontSize={26}>
     <span>Se produjo un error, vuelva a intentarlo más tarde</span>
-  </Box>
+  </Flex>
 )
 
 export default Error
