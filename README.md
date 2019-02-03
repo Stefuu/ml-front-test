@@ -65,6 +65,8 @@ $ yarn cypress
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest) [![jest](https://jestjs.io/img/jest-badge.svg)](https://github.com/facebook/jest)  
 Para testes unitários
 
+## React
+Como framework de front, fazendo uso de context api para criar o contexto da barra de busca
 ## Styled components:
 [![style: styled-components](https://img.shields.io/badge/style-%F0%9F%92%85%20styled--components-orange.svg?colorB=daa357&colorA=db748e)](https://github.com/styled-components/styled-components)  
 Utilizei Styled components pela simplicidade e sinergia com react
