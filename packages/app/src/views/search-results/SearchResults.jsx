@@ -2,11 +2,13 @@ import React from 'react'
 import { withSearchBar } from '../../components/contexts/SearchBarContext'
 import axios from 'axios'
 import querystring from 'querystring'
-import Content from '../../components/modules/Content'
-import Container from '../../components/modules/Container'
-import CategoriesBreadcrumb from '../../components/modules/CategoriesBreadcrumb'
+import Content from '../../components/modules/content'
+import Container from '../../components/modules/container'
+import CategoriesBreadcrumb from '../../components/modules/categories-breadcrumb'
 import ProductItem from '../../components/modules/ProductItem'
 import Box from '../../components/elements/Box'
+import Flex from '../../components/elements/Flex'
+import Spinner from '../../components/elements/Spinner'
 
 const renderProductsListIfProducts = (products) => {
   if(products && products.length > 0){
@@ -31,6 +33,7 @@ class SearchResults extends React.Component {
   }
 
   getData = async (fromQuery) => {
+    this.setState({ loading: true })
     const { location, context } = this.props
     const { q } = querystring.parse(location.search.replace(/\?/g, ''))
     const term = fromQuery ? q : context.searchTerm
@@ -39,10 +42,10 @@ class SearchResults extends React.Component {
       const response = await axios(`http://localhost:8088/api/items?q=${term}&limit=4`)
       const products = response.data.items
       const categories = response.data.categories
-      this.setState({ products, categories })
+      this.setState({ products, categories, loading: false })
     } 
     catch(error) {
-        this.setState({ error })
+        this.setState({ error, loading: false })
     }
   }
 
@@ -55,11 +58,23 @@ class SearchResults extends React.Component {
   }
 
   render () {
-    const { products, categories, error } = this.state
+    const { products, categories, loading, error } = this.state
+
+    if(loading) {
+      return (
+        <Flex 
+          alignItems='center'
+          justifyContent='center'
+          width='100%'
+          height='100vh'>
+          <Spinner size={100} color='#999' />
+        </Flex>
+      )
+    }
     return (
       <Content>
           <Container>
-            {(categories && categories.length > 0) && <CategoriesBreadcrumb categories={categories} />}
+            {(categories && categories.length > 0) ? <CategoriesBreadcrumb categories={categories} /> : <Box height={60}/>}
             {renderProductsListIfProducts(products)}
           </Container>
       </Content>

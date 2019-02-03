@@ -1,5 +1,5 @@
 import React from 'react'
-import Box from '../elements/Box'
+import Box from '../../elements/Box'
 import styled from 'styled-components'
 import { rem } from 'polished'
 import { theme } from 'styled-tools'

@@ -1,10 +1,11 @@
 
 import React from 'react'
+import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
 import { rem } from 'polished'
 import styled from 'styled-components'
 import { theme } from 'styled-tools'
-import Container from './Container'
+import Container from '../modules/container'
 import Flex from '../elements/Flex'
 import Box from '../elements/Box'
 import InputText from '../inputs/InputText'
@@ -24,7 +25,7 @@ const SearchBar = (props) => (
   <StyledBox>
     <Container>
       <Flex>
-        <Box mr={rem(27)}>
+        <Box as={Link} to='/' mr={rem(27)}>
           <RetinaImage
             width={rem(53)}
             height={rem(36)}

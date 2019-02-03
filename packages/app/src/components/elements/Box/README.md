@@ -1,5 +1,3 @@
 # Box
 
-> app/components/elements/Box
-
-Div estilizada com propriedades flex do styled-system
+## Styled div with most properties from styled-system

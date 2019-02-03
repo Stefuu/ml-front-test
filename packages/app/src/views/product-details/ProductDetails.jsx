@@ -4,12 +4,13 @@ import { theme } from 'styled-tools'
 import { rem } from 'polished'
 import axios from 'axios'
 import { withSearchBar } from '../../components/contexts/SearchBarContext'
-import Content from '../../components/modules/Content'
-import Container from '../../components/modules/Container'
+import Content from '../../components/modules/content'
+import Container from '../../components/modules/container'
 import Flex from '../../components/elements/Flex'
 import Box from '../../components/elements/Box'
 import Button from '../../components/inputs/Button'
 import { formatCurrency, formatDecimals } from '../../helpers'
+import Spinner from '../../components/elements/Spinner'
 
 const DescriptionContainer = styled(Box)`
   line-height: 1.3;
@@ -42,12 +43,14 @@ const renderItemDetailsIfItem = (item) => {
       <Flex
         flexDirection={['column', 'row']}>
         <Flex 
+          mr={rem(32)}
           maxWidth={[590, 560, 661]}
           flexDirection='column'>
           <Box height={[200, 400, 600]}>
             <img height='100%' src={item.picture} alt='Product' />
           </Box>
           <Box
+            mt={35}
             fontSize={rem(28)}>
             <span>Descripcíon del producto</span>
           </Box>
@@ -57,7 +60,7 @@ const renderItemDetailsIfItem = (item) => {
         </Flex>
         <Flex 
           lineHeight={1.3}
-          maxWidth={190}
+          maxWidth={250}
           flexDirection='column'>
           <Box>
             <span>
@@ -87,23 +90,34 @@ const renderItemDetailsIfItem = (item) => {
 }
 
 class ProductDetails extends React.Component {
-  state = {}
+  state = {
+    loading: true
+  }
 
   componentDidMount = async () => {
     try {
       const response = await axios(`http://localhost:8088/api/items/${this.props.match.params.id}`)
-      
       const item = response.data.item
-      console.log('item', item)
-      this.setState({ item })
+      this.setState({ item, loading: false })
     } 
     catch(error) {
-        this.setState({ error })
+        this.setState({ error, loading: false })
     }
-    // this.props.match.params
   }
 
   render () {
+    if(this.state.loading) {
+      return (
+        <Flex 
+          alignItems='center'
+          justifyContent='center'
+          width='100%'
+          height='100vh'>
+          <Spinner size={100} color='#999' />
+        </Flex>
+      )
+    }
+    
     return (
       <Content pt={rem(30)}>
         <Container>
