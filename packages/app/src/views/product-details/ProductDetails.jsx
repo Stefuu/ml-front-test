@@ -11,6 +11,7 @@ import Box from '../../components/elements/Box'
 import Button from '../../components/inputs/Button'
 import { formatCurrency, formatDecimals } from '../../helpers'
 import Spinner from '../../components/elements/Spinner'
+import Error from '../../components/elements/Error'
 
 const DescriptionContainer = styled(Box)`
   line-height: 1.3;
@@ -106,7 +107,11 @@ class ProductDetails extends React.Component {
   }
 
   render () {
-    if(this.state.loading) {
+    const { loading, error } = this.state
+
+    if(error) return <Error />
+
+    if(loading) {
       return (
         <Flex 
           alignItems='center'

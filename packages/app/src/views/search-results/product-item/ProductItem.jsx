@@ -2,15 +2,15 @@ import React from 'react'
 import { withRouter } from 'react-router-dom'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import Flex from '../elements/Flex'
-import Box from '../elements/Box'
+import Flex from '../../../components/elements/Flex'
+import Box from '../../../components/elements/Box'
 import tag from 'clean-tag'
 import { rem } from 'polished'
 import { theme } from 'styled-tools'
-import { formatCurrency } from '../../helpers'
-import RetinaImage from '../behaviour/RetinaImage'
-import ShippingImageRegular from '../../assets/ic_shipping.png'
-import ShippingImageRetina from '../../assets/ic_shipping@2x.png'
+import { formatCurrency } from '../../../helpers'
+import RetinaImage from '../../../components/behaviour/RetinaImage'
+import ShippingImageRegular from '../../../assets/ic_shipping.png'
+import ShippingImageRetina from '../../../assets/ic_shipping@2x.png'
 
 const StyledImg = styled(tag.img)`
     height: 100%;
@@ -45,12 +45,13 @@ const renderShippingImageIfFree = (item) => {
   return null
 }
 
-const ProductItem = ({ item, history }) => {
+const ProductItem = ({ item, history, qa }) => {
   return (
     <Container
       onClick={() => history.push(`/items/${item.id}`)}
       mx={rem(16)}
       py={rem(16)}
+      qa={qa}
       justifyContent='space-between'>
       <Flex justifyContent='flex-start'>
         <Box

@@ -5,10 +5,11 @@ import querystring from 'querystring'
 import Content from '../../components/modules/content'
 import Container from '../../components/modules/container'
 import CategoriesBreadcrumb from '../../components/modules/categories-breadcrumb'
-import ProductItem from '../../components/modules/ProductItem'
+import ProductItem from './product-item'
 import Box from '../../components/elements/Box'
 import Flex from '../../components/elements/Flex'
 import Spinner from '../../components/elements/Spinner'
+import Error from '../../components/elements/Error'
 
 const renderProductsListIfProducts = (products) => {
   if(products && products.length > 0){
@@ -16,7 +17,7 @@ const renderProductsListIfProducts = (products) => {
       <Box background='#fff'>
       {
         products.map((item, index) => (
-        <ProductItem key={index} item={item} />
+        <ProductItem qa={`product-item-${index+1}`} key={index} item={item} />
       ))
       }
       </Box>
@@ -59,7 +60,7 @@ class SearchResults extends React.Component {
 
   render () {
     const { products, categories, loading, error } = this.state
-
+    if(error) return <Error />
     if(loading) {
       return (
         <Flex 

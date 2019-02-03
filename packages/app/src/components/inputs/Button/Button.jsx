@@ -8,7 +8,7 @@ const Button = styled(tag.button)`
     outline: none;
     border-radius: 6px;
     color: ${theme('colors.b0')};
-    background-color: ${theme('colors.primary')};
+    background-color: ${props => props.color || theme('colors.primary')};
     ${height}
     ${space}
     ${width}
